@@ -39,9 +39,41 @@ mysqli_close($conn);*/
         </div>
         </nav>
     </header>
+    <section>
+        <center><h1>CONTAMOS CON DIFERENTES CANALES DE ATENCION</h1></center>
+			<div class="cards-container">
+
+				<div class="product-card">
+					<img src="./images/whatsapp1.jpg" alt="" class="product-nfo">
+					<div class="product-info">
+						<div>
+							<p>CONSULTAS VIA WHATSAPP</p>
+						</div>
+					</div>
+				</div>
+				<div class="product-card">
+					<img src="./images/visitanos.png" alt="" class="product-nfo">
+					<div class="product-info">
+						<div>
+						<p>ATENCION PRESENCIAL</p>
+						</div>
+					</div>
+				</div>
+				<div class="product-card">
+					<img src="./images/atencion_telefonica.jpg" alt="" class="product-nfo">
+					<div class="product-info">
+						<div>
+						<p>ATENCION TELEFONICA</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+	</section>
+
     <section class="contenedor">
         <form action="#" class="formulario" id="formulario" name="formulario" method="POST">
             <div class="contenedor-inputs-ll">
+            <center><h1>AGENDA TU CITA</h1></center>
                 <input type="number" name="cedula" placeholder="Numero de documento:" required>
                 <input type="text" name="nombre" placeholder="Nombres:" required>
                 <input type="text" name="apellido" placeholder="Apellidos:" required>

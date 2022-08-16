@@ -123,23 +123,25 @@
     body .contenedor-infor{
         min-height: 50vh;
         min-width: 50vh;
-        background-image: url("./fondos/atencionenlinea.jpg");
+        background-image: url("./fondos/atencionenlinea.png");
         background-repeat: no-repeat;
         background-size: cover;
     }
     .contenedor-infor h1{
-        color: var(--white);
+        color: var(--PaleVioletRed);
         text-align: center;
         font-size: 50px;
         margin-top: 0px;
         margin-bottom: 25px;
+        -webkit-text-stroke: 1px white;
     }
     .contenedor-infor h3{
-        color: var(--white);
+        color: var(--PaleVioletRed);
         text-align: center;
         font-size: 25px;
         margin-top: 0px;
         margin-bottom: 0px;
+        -webkit-text-stroke: 0.4px white;
     }
     .product-info{
         display: flex;
